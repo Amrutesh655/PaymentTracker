@@ -41,7 +41,7 @@ function Signup() {
       <div className="signup-card">
         <div className="signup-header">
           <div className="signup-icon">Signup</div>
-          <h2>Create Account</h2>
+          <h2 className="signup-title">Create Account</h2>
           <p>Start managing your money</p>
         </div>
 

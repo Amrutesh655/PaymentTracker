@@ -33,7 +33,7 @@ function Login() {
       <div className="login-card">
         <div className="login-logo">
           <div className="login-icon">LOGIN</div>
-          <h2>MoneyTracker</h2>
+          <h2 className="login-title">MoneyTracker</h2>
           <p>Secure access to your wealth</p>
         </div>
 

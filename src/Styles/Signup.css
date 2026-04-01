@@ -17,7 +17,8 @@
 .signup-card {
   padding: 30px;
   border-radius: 20px;
-  width: 350px;
+  width: 415px;
+  height: 470px;
   z-index: 1;
   border: 1px solid #10b981;
 }
@@ -33,13 +34,17 @@
   padding: 10px;
   border-radius: 50%;
   width: 192px;
-  margin-left: 65px;
+  margin-left: 85px;
+}
+.signup-title{
+    margin-top: 12px;
 }
 
 .signup-form {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-top: 42px;
 }
 
 .signup-input {
@@ -65,4 +70,24 @@
 .signup-link {
   color: #10b981;
   margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .login-card,
+  .signup-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .login-input,
+  .signup-input {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .login-button,
+  .signup-button {
+    padding: 12px;
+    font-size: 14px;
+  }
 }

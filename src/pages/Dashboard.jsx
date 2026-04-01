@@ -7,7 +7,7 @@ import {
   deletePayment,
   updatePayment,
 } from "../utils/Storage";
-import "../Styles/Dashboard.css";
+import "../Styles/dashboard.css";
 
 /*  Helpers  */
 const formatDate = (iso) => {
